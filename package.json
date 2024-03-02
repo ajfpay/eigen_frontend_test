@@ -28,9 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "jest2": "jest --coverage --transformIgnorePatterns \"node_modules/(?!@antd)/\"",
-    "jest": "jest --transformIgnorePatterns 'node_modules/(?!@antd)/'",
-    "jestw": "jest --watch"
+    "jest": "jest --watch"
   },
   "eslintConfig": {
     "extends": [
