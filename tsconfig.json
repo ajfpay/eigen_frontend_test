@@ -1,0 +1,36 @@
+{
+  // "extends": "@tsconfig/node20/tsconfig.json",
+  // "$schema": "https://json.schemastore.org/tsconfig",
+  // "displayName": "Node 20",
+  // "_version": "20.10.0",
+
+  "compilerOptions": {
+    "target": "ES5", //"es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "types": ["jest", "node"],
+    "jsx": "react-jsx"
+  },
+  "exclude": ["node_modules", "dist", "./tsconfig.json"],
+  "include": [
+    "src/**/*",
+    "**/*.spec.tsx", // Pola pencarian untuk file tes
+    "**/*.test.tsx",
+    "**/*.spec.ts", // Pola pencarian untuk file tes
+    "**/*.test.ts",
+    "src/test"
+  ]
+}

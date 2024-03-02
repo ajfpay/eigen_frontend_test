@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Row-main {
+  min-height: 100vh;
+  padding: 6px;
+  display: flex; /* Menjadikan konten sebagai flex container */
+  flex-wrap: wrap; /* Membungkus item saat layar terlalu kecil */
+  justify-content: center;
+}
+
+.Col-main {
+  /* display: flex; */
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  /* flex: auto; */
+}
+
+.Card-main {
+  width: 100%;
+  height: 350px;
+}
+
+.Card-detail {
+  width: 100%;
+  height: 100%;
+}
+
+.Card-img {
+  height: 200px;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.Main-img {
+  align-self: center;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
+.Padding-main {
+  padding: 16px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Header {
+  background: #f0f2f5;
+  padding: 20px;
+}
+
+.Footer {
+  max-width: 100%;
+  background: #001529;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Small devices (sm) */
+@media (min-width: 640px) {
+  .Row-main {
+    margin: 0 auto;
+    max-width: 640px;
+  }
+}
+
+/* Medium devices (md) */
+@media (min-width: 768px) {
+  .Row-main {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+
+/* Large devices (lg) */
+@media (min-width: 1024px) {
+  .Row-main {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+}
+
+/* Extra large devices (xl) */
+@media (min-width: 1280px) {
+  .Row-main {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+}
+
+/* 2 Extra large devices (2xl) */
+@media (min-width: 1536px) {
+  .Row-main {
+    margin: 0 auto;
+    max-width: 1536px;
+  }
+}
